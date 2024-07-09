@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8dd6ac261.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>TOD | Project-4-TicTacToe</title>
+  </head>
+  <body id="body">
+    <div id="alert" class="alert">
+      <span id="alert-text"></span>
+      <div class="progress-bar"></div>
+    </div>
+    <section class="start-section">
+      <h1>TIC TAC TOE</h1>
+      <form class="form" action="#">
+        <label for="player1">Player 1: <i class="fa-solid fa-x"></i></label>
+        <input
+          type="text"
+          name="player1"
+          id="player1"
+          placeholder="Name player1"
+          required
+        />
+        <label for="player1">Player 2: <i class="fa-solid fa-o"></i></label>
+        <input
+          type="text"
+          name="player2"
+          id="player2"
+          placeholder="Name player2"
+          required
+        />
+        <button id="btn-start" class="btn" type="submit">Start</button>
+      </form>
+    </section>
+
+    <main class="main"></main>
+    <div class="cont-turner">
+      <div class="turnoactual">
+        <b>TURNO ACTUAL</b>
+        <b id="turn"></b>
+      </div>
+    </div>
+    <!-- <script src="app.js"></script> -->
+    <script src="main.js"></script>
+  </body>
+</html>
